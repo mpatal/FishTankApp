@@ -14,7 +14,7 @@ namespace FishTankApp.Controllers
         }
         public IActionResult Index()
         {
-            ViewBag.Title = "Fish tank dashboard";
+            ViewBag.Title = "Fish tank dashboard" ;
             return  View(_viewModelService.GetDashboardViewModel());
         }
     }
